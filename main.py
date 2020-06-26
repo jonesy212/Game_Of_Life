@@ -33,9 +33,9 @@ def mouse_on_grid(pos):
     return 
 
 def click_cell(pos): 
-    grid_pos = [pos[0] - 100, pos[1-180]
-    grid_pos[0] = grid_pos[0]//20
-    grid_pos[1] = grid_pos[1]//20
+    # grid_pos = [pos[0] - 100, pos[1-180]
+    # grid_pos[0] = grid_pos[0]//20
+    # grid_pos[1] = grid_pos[1]//20
     # pass in two list y x
     game_window.grid[grid_pos[[1]]][grid_pos[0]].alive = True
 
